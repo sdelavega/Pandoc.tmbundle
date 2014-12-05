@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>md</string>
+	</array>
+	<key>hideFromUser</key>
+	<true/>
+	<key>injectionSelector</key>
+	<string>L:text.html.markdown.pandoc</string>
+	<key>name</key>
+	<string>Pandoc YAML Metadata</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>begin</key>
+			<string>\G---\n</string>
+			<key>contentName</key>
+			<string>meta.embedded_$1.markdown</string>
+			<key>end</key>
+			<string>---\n</string>
+			<key>name</key>
+			<string>markup.raw.block.markdown</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.yaml</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.yaml</string>
+	<key>uuid</key>
+	<string>FA68A97B-79C9-49AE-A3B1-85E9D3A74BA7</string>
+</dict>
+</plist>
