@@ -5,7 +5,7 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>pandoc --strict</string>
+	<string>pandoc -f markdown_strict</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
