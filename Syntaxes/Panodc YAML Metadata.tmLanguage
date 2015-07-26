@@ -20,7 +20,7 @@
 			<key>contentName</key>
 			<string>meta.embedded_$1.markdown</string>
 			<key>end</key>
-			<string>---\n</string>
+			<string>(---|...)\n</string>
 			<key>name</key>
 			<string>markup.raw.block.markdown</string>
 			<key>patterns</key>
