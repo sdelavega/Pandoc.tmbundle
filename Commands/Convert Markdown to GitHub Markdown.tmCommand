@@ -5,18 +5,18 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>pandoc -f html -t markdown --no-wrap --reference-links $TM_PANDOC_OPTS $TM_PANDOC_HTML_OPTS</string>
+	<string>pandoc -f markdown -t markdown_github --wrap=none --reference-links $TM_PANDOC_OPTS $TM_PANDOC_HTML_OPTS --bibliography $TM_PANDOC_BIB</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
 	<string>^~@m</string>
 	<key>name</key>
-	<string>Convert HTML to Markdown</string>
+	<string>Convert Markdown to GitHub Markdown</string>
 	<key>output</key>
 	<string>openAsNewDocument</string>
 	<key>scope</key>
-	<string>text.html</string>
+	<string>text.html.markdown</string>
 	<key>uuid</key>
-	<string>F2FB9B3F-B700-4515-9C00-820F257CC2E7</string>
+	<string>F2FB9B3F-B700-4515-9C00-820F257CC2E8</string>
 </dict>
 </plist>

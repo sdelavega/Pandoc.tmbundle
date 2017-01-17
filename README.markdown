@@ -1,3 +1,9 @@
+# Changes
+
+* added `$TM_PANDOC_OPT` variables to allow project-specific options to be lasseh to `pandoc` from `.tm_properties`.
+
+---
+
 # Please note
 
 I've abandoned TextMate for MacVim, and stopped supporting this bundle. 

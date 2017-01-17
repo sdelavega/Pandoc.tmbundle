@@ -26,7 +26,7 @@ targetname="$basename$connective$inc.odt"
 # run pandoc
 
 echo "&lt;pre&gt;"
-	pandoc -sS -o "$targetname"
+	pandoc -sS -o "$targetname" $TM_PANDOC_OPTS $TM_PANDOC_ODT_OPTS
 echo "&lt;/pre&gt;"
 
 # verify that the file exists
