@@ -1,4 +1,17 @@
-# Please note
+# UPDATE #
+
+Sanson states below:
+
+> It would be better to have a clean and complete Language specification
+for Pandoc's extended Markdown. I just haven't bothered to do it.
+
+If I can figure out how to do that, I'll take over maintaining the package. Otherwise, I don't see much point.
+
+Everything below this line comes from the original maintainer.
+
+----
+
+# Please note #
 
 I've abandoned TextMate for MacVim, and stopped supporting this bundle. 
 If you want to take it over, let me know, and I'll add a link here to 
