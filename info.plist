@@ -58,6 +58,7 @@
 					<string>F2FB9B3F-B700-4515-9C00-820F257CC2E7</string>
 					<string>A159701F-7F2B-4732-BEB5-0119ECCCCF62</string>
 					<string>6238103B-D750-49FA-8C9C-B4078167C204</string>
+                                        <string>F2FB9B3F-B700-4515-9C00-820F257CC2E8</string>
 				</array>
 				<key>name</key>
 				<string>Convert</string>
@@ -66,6 +67,7 @@
 			<dict>
 				<key>items</key>
 				<array>
+                                        <string>74F0D07D-C2F7-4CDC-B08B-25024657AAF4</string>
 					<string>BC891659-5D4C-431C-A806-D7A26377E3EE</string>
 					<string>0E35F798-452C-4D7A-8E67-3741F684C43B</string>
 					<string>8A4B83DD-08A2-46ED-9219-78AAD9A797B0</string>

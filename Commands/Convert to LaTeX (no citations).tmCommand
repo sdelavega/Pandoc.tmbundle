@@ -5,7 +5,7 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>pandoc -Ss -w latex </string>
+	<string>pandoc -Ss -w latex $TM_PANDOC_OPTS $TM_PANDOC_LATEX_OPTS</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
